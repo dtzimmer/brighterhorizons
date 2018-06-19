@@ -1,0 +1,122 @@
+body {
+
+}
+
+article {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  color: black;
+  margin-right: 5%;
+}
+
+h1 {
+  color: white;
+  font-family: satisfy ;
+  font-size: 3em;
+  margin: 2%;
+}
+
+/*.navbar {*/
+  /*font-family: acme;*/
+  /*z-index: 99999;*/
+  /*overflow: hidden;*/
+  /*background-color: #f68603;*/
+  /*border-radius: 5px;*/
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*width: 50%;*/
+  /*box-shadow: 4px 4px 5px black;*/
+/*}*/
+
+/*.navbar a {*/
+  /*float: left;*/
+  /*display: block;*/
+  /*color: white;*/
+  /*text-align: center;*/
+  /*padding: 14px 16px;*/
+  /*text-decoration: none;*/
+/*}*/
+
+/*.navbar a:hover {*/
+  /*background: #fff97d;*/
+  /*color: black;*/
+/*}*/
+
+ul {
+  color: white;
+}
+
+.nav.navbar-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  font-family: acme;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 0;
+  font-size: 20px;
+  letter-spacing: 5px;
+  position: fixed;
+  text-decoration: none;
+  color: white;
+  width: 50%;
+  background: #f68603;
+}
+
+.navbar-nav li a:hover {
+  color: black !important;
+}
+
+.homepagebackground {
+  background: url('./silhouette-art4.jpg') fixed center top;
+  background-size: cover;
+  height: 110vh;
+}
+
+.aboutpagebackground {
+  background: url('./BH2.jpg') fixed center top;
+  background-size: cover;
+  height: 110vh;
+}
+
+.contactpagebackground {
+  background: url('./beach-beautiful-dawn-40192.jpg') fixed center top;
+  background-size: cover;
+  height: 110vh;
+}
+
+.servicepagebackground {
+   background: url('./beautiful-sunrise-in-good-morning-wallpapers-and-backgrounds.jpg') fixed center top;
+   background-size: cover;
+   height: 110vh;
+ }
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  background: #f68603;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px -3px 3px black;
+}
+
+/*button {*/
+  /*font-family: acme;*/
+  /*margin: 10px;*/
+  /*padding: 5px;*/
+  /*border-radius: 3px;*/
+  /*color: black;*/
+  /*background: #fff97d;*/
+  /*box-shadow: 4px 4px 5px black;*/
+/*}*/
+
+p {
+  padding: 5%;
+  font-family: Pinyon Script;
+  font-size: 3em;
+}
